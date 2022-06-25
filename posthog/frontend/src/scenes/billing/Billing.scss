@@ -1,0 +1,34 @@
+.billing-page {
+    .plan-description {
+        ol,
+        ul {
+            margin-top: 1rem;
+            padding-left: 0;
+            list-style: none;
+            text-align: center;
+            li {
+                line-height: 1.2rem;
+                margin-bottom: 1rem;
+            }
+            .disclaimer {
+                font-size: 10px;
+                font-weight: bold;
+                vertical-align: top;
+                padding-left: 1px;
+            }
+        }
+
+        .disclaimer-details {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 1rem;
+        }
+    }
+
+    .bill-amount {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+}

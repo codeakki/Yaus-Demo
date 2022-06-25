@@ -1,0 +1,20 @@
+.authorized-urls-table {
+    .authorized-url-col {
+        display: flex;
+        align-items: center;
+        .lemon-tag {
+            margin-left: 6px;
+        }
+        &.suggestion {
+            color: var(--text-muted-alt);
+        }
+        &.authorized {
+            color: var(--success);
+        }
+    }
+    .actions-col {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}

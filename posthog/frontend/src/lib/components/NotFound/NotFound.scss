@@ -1,0 +1,16 @@
+.not-found-component {
+    text-align: center;
+    margin-top: 2rem;
+    .graphic {
+        background: url('../../../../public/not-found-rocket.svg') no-repeat center center;
+        height: 270px;
+        width: 100%;
+    }
+    b {
+        display: block;
+    }
+    p {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+}

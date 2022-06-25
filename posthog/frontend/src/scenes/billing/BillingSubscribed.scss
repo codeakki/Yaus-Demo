@@ -1,0 +1,21 @@
+@import '../authentication/bridgePagesShared';
+
+.billing-subscribed {
+    // bridgePagesShared overrides
+    .auth-main-content {
+        flex-direction: row !important;
+        min-height: calc(100vh - 3.5rem) !important; // To account for the TopBar
+    }
+
+    .support-footer {
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+        border-top: 1.5px dashed var(--border);
+        text-align: center;
+    }
+
+    .title-icon {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+}
